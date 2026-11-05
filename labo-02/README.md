@@ -42,6 +42,9 @@ Het kostte me even om erachter te komen hoe ik de navigatielinks specifiek kon s
 
 - Welke drie waarden staan in je tokenblok, en waarom die?
 - Wat verandert er in je site als je één token wijzigt?
+--accent: #2e5f75;, --font verdana, serif en --dren 1.8rem. De accentkleur wordt gebruikt voor links, dus die komt in veel regels voor en moet maar één keer worden gedefinieerd. Het lettertype wordt ingesteld voor de `body` en overgenomen door elke pagina, dus één token bepaalt de typografie van de hele site. De basisgrootte bepaalt hoe leesbaar de tekst is, en ik wilde dat op één plek regelen. 
+
+Ik heb --font gewijzigd in georgia en opgeslagen. Op alle vier de pagina’s veranderde het lettertype van de body in één keer, zonder dat ik een pagina hoefde te bewerken, omdat elke regel gebruikmaakt van var(--color-font). 
 
 ## Thuis: R2.3 (met AI)
 
